@@ -54,11 +54,11 @@ But, this is linear. We typically don't want this for more serious infractions l
 There is another edge case here; it is called griefing, the act of intentionally getting oneself slashed in order to make another's slash worse, could be a concern here. In a logistic function based slashing, they both should get impacted equally leaving no extra economic incentives for the victim.
 
 ##### Positives
-    Increases decentralization by disincentivizing delegating to large validators
-    More severely punishes attacks than accidental faults
-    More flexibility in slashing rates parameterization
+- Increases decentralization by disincentivizing delegating to large validators
+- More severely punishes attacks than accidental faults
+- More flexibility in slashing rates parameterization
 ##### Negatives
-    More computationally expensive than current implementation. Will require more data about "recent slashing events" to be stored on chain.
+- More computationally expensive than current implementation. Will require more data about "recent slashing events" to be stored on chain.
 
 Here is some comparisons of variety of slashing across different blockchain networks. Note that both Ethereum and Polka have a more complicated and dynamic slashing method because they designed their mechanisms to punish the validators if more than 33% of the network is inactive. The majority of the PoS protocols want two third of the total validators to be active and honest during each block addition. 
 
